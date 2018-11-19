@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Workspace\\TestDome\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "D:\\Workspace\\TestDome\\TrafficClient\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspaceandroidstudio\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "D:\\workspaceandroidstudio\\TrafficClient\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]
