@@ -3,25 +3,77 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f1f1f1"
-    android:orientation="vertical" >
+    android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <Spinner
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <Button
+            android:layout_weight="0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="查 询"/>
+            android:text="账单查询"
+            android:textSize="25sp"/>
+        <Spinner
+            android:layout_weight="1"
+            android:id="@+id/s_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/sort"/>
+        <Button
+            android:id="@+id/btn_query"
+            android:layout_weight="0"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="查 询"
+            android:textSize="18sp"/>
     </LinearLayout>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
+        <TableLayout
+            android:id="@+id/tl_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="序号"/>
+                <TextView
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="车号"/>
+                <TextView
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="充值金额（元）"/>
+                <TextView
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="操作人"/>
+                <TextView
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="充值时间"/>
+            </TableRow>
+        </TableLayout>
     </ScrollView>
 
 </LinearLayout>
