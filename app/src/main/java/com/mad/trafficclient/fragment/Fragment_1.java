@@ -18,7 +18,13 @@ public class Fragment_1 extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_layout01, container, false);
+
+		initUI();
 		return view;
 	}
+
+    private void initUI() {
+
+    }
 
 }
