@@ -46,6 +46,8 @@ public class LoginActivity extends Activity  {
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 				WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.activity_login);
+		Intent intent = new Intent(LoginActivity.this,	MainActivity.class);
+		startActivity(intent);
 		initView();
 		initLiserter();
 	}
