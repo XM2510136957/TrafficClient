@@ -13,17 +13,12 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-public class Fragment_3 extends Fragment
-{
+public class Fragment_3 extends Fragment {
 
 	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState)
-	{
-		View view = inflater
-				.inflate(R.layout.fragment_layout03, container, false);
-		TextView textview = (TextView) view.findViewById(R.id.textview);
-		textview.setText("this is fragment 3");
+	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+		View view = inflater.inflate(R.layout.fragment_layout03, container, false);
+
 		return view;
 	}
 
