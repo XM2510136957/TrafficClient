@@ -13,8 +13,7 @@ public class Fragment_5 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_layout05, container, false);
         //提交修改
-        //科米克vbvb
-        //你好
+
         return view;
     }
 }
