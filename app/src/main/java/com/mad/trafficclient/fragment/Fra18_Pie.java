@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.data.PieData;
@@ -39,12 +40,17 @@ public class Fra18_Pie extends Fragment {
         pieChart.setHoleRadius(0);
         pieChart.setDescription("");
         pieChart.setTouchEnabled(true);
-        pieChart.setClickable(true);
         pieChart.setDrawHoleEnabled(true);
         pieChart.setRotationAngle(180);
-        pieChart.setRotationEnabled(true);
+        pieChart.setRotationEnabled(true);//可以手动旋转
+        pieChart.setUsePercentValues(true);//显示成百分比
+
 
         pieChart.setData(pieData);
+        Legend legend = pieChart.getLegend();
+        legend.setPosition(Legend.LegendPosition.RIGHT_OF_CHART);
+        legend.setXEntrySpace(7f);
+        legend.setYEntrySpace(7f);
         pieChart.animateXY(1000,1000);
     }
     private PieData getData(int count,int a){
