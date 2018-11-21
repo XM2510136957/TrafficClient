@@ -31,6 +31,7 @@ import com.mad.trafficclient.fragment.FragmentHome;
 import com.mad.trafficclient.fragment.Fragment_1;
 import com.mad.trafficclient.fragment.Fragment_2;
 import com.mad.trafficclient.fragment.Fragment_3;
+import com.mad.trafficclient.fragment.Fragment_3_suggest;
 import com.mad.trafficclient.fragment.Fragment_4;
 
 

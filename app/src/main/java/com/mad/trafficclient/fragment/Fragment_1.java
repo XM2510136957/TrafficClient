@@ -92,7 +92,7 @@ public class Fragment_1 extends Fragment {
 	//字符串时间 转 Date对象
 	private Date stringToDate(String dateString){
 		ParsePosition position = new ParsePosition(0);
-		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("YYYY.MM.DD HH:mm");
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy.MM.DD HH:mm");
 		Date dateValue = simpleDateFormat.parse(dateString,position);
 		return dateValue;
 	}
