@@ -14,12 +14,14 @@
         android:orientation="vertical">
 
         <EditText
+            android:layout_weight="1"
             android:id="@+id/ed_yijian_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="标题" />
 
         <EditText
+            android:layout_weight="1"
             android:layout_marginTop="8dp"
             android:gravity="left"
             android:id="@+id/ed_yijian"
@@ -32,6 +34,7 @@
             android:scrollbars="vertical" />
 
         <EditText
+            android:layout_weight="1"
             android:layout_marginTop="8dp"
             android:id="@+id/ed_phone"
             android:layout_width="match_parent"
@@ -41,6 +44,7 @@
             android:maxLines="1" />
 
         <Button
+            android:layout_weight="1"
             android:layout_marginTop="8dp"
             android:id="@+id/bt_tijiao_yijian"
             android:layout_width="130dp"
