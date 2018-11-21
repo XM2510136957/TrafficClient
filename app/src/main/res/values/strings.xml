@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    
+
     <string name="app_name">智能交通2017</string>
     <string name="app_title">智能交通</string>
     <string name="action_settings">设置</string>
@@ -16,10 +16,11 @@
     <string name="register">注册</string>
 
     <string name="error_ip">服务器地址不能为空！</string>
-    
+
     <string name="res_left_wodezhanghu">编码1</string>
     <string name="res_left_zhanghuguanli">编码2</string>
     <string name="res_left_honglvdengguanli">编码3</string>
+    <string name="res_left_news">我的消息</string>
     <string name="res_left_chuanyi">创意</string>
     <string name="res_left_exit">用户退出</string>
     <string name="info_result">通讯数据返回结果！</string>

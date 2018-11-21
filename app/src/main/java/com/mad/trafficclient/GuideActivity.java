@@ -19,7 +19,7 @@ public class GuideActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-		WindowManager.LayoutParams.FLAG_FULLSCREEN);
+				WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.activity_guide);
 		guide_RL = (RelativeLayout) findViewById(R.id.guide_RL);
 		//改错一：判断是否为第一次进入app，第一次进入后保存状态
