@@ -8,6 +8,7 @@ import com.mad.trafficclient.R;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -108,11 +109,13 @@ public class Fragment_1 extends Fragment {
 				if(s_sort.getSelectedItemPosition() == 0){
 					//降序
 					if(date1.after(date2)){
+						Log.e("降序","成功！");
 						return 1;
 					}
 				}else if(s_sort.getSelectedItemPosition() == 1){
 					//升序
 					if(date1.before(date2)){
+						Log.e("升序","成功！");
 						return 1;
 					}
 				}
