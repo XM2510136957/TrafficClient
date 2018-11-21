@@ -42,8 +42,7 @@ public class Fragment_3_suggest extends Fragment {
         list.add(new Suggest("标题3","2018-12-06",1,"服务器故障","2018-12-11"));
         list.add(new Suggest("标题4","2018-12-06",2,"更新慢","2018-12-11"));
         list.add(new Suggest("标题5","2018-12-06",1,"什么鬼..","2018-12-11"));
-
-
+        
         listView.setAdapter(new MyBaseAdapter());
         listView.invalidate();
     }
