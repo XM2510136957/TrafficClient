@@ -86,7 +86,8 @@ public class Fragment_1 extends Fragment {
 			}
 			tl_layout.addView(tableRow);
 		}
-		Toast.makeText(getActivity(), "1111111111", Toast.LENGTH_SHORT).show();
+
+		Toast.makeText(getActivity(), "查询成功", Toast.LENGTH_SHORT).show();
 	}
 
 	//字符串时间 转 Date对象
