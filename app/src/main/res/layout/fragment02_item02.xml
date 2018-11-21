@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaa">
+
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginLeft="43dp"
+            android:src="@drawable/touxiang_2" />
+
+        <TextView
+            android:id="@+id/tv_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_zzc"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="116dp"
+            android:layout_marginLeft="116dp"
+            android:layout_marginTop="-7dp"
+            android:gravity="center"
+            android:text="刘聪" />
+
+        <TextView
+            android:id="@+id/tv_zzc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_number"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="399dp"
+            android:layout_marginLeft="399dp"
+            android:layout_marginBottom="-8dp"
+            android:text="总支出" />
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="55dp"
+            android:layout_marginRight="55dp"
+            android:text="1,300.00"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/lv_charge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>
