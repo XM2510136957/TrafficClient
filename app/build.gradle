@@ -23,4 +23,5 @@ dependencies {
     compile files('libs/volley.jar')
     compile files('libs/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar')
     implementation 'com.squareup.okhttp3:okhttp:3.12.0'
+    implementation files('libs/MPAndroidChart-v2.1.5.jar')
 }

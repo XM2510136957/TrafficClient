@@ -30,11 +30,6 @@ public class Fragment_3 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_layout03, container, false);
-        View view1 = LayoutInflater.from(getActivity()).inflate(R.layout.content_layout, container);
-        Log.i("activity", String.valueOf(getActivity()));
-        TextView tv_wodeyijian=view1.findViewById(R.id.tv_anoter);
-        tv_wodeyijian.setText("我的意见");
-
         initview();
         initdata();
         return view;
