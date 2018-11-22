@@ -21,7 +21,7 @@ public class Fragment_3_suggest extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_layout03, container, false);
+        view = inflater.inflate(R.layout.fragment_3_suggest,container, false);
 
         initview();
         initdata();
