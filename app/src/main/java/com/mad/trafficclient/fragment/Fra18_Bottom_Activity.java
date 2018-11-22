@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.mad.trafficclient.Adaper.ViewPagerAdaper;
+import com.mad.trafficclient.adaper.ViewPagerAdaper;
 import com.mad.trafficclient.R;
 
 import java.util.ArrayList;

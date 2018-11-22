@@ -16,7 +16,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.mad.trafficclient.Bean.CZJL;
+import com.mad.trafficclient.bean.CZJL;
 import com.mad.trafficclient.R;
 
 import java.util.ArrayList;

@@ -1,6 +1,4 @@
-package com.mad.trafficclient.Bean;
-
-import java.util.Date;
+package com.mad.trafficclient.bean;
 
 public class Suggest {
     private String title;

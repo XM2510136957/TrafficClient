@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import com.mad.trafficclient.Bean.Suggest;
+import com.mad.trafficclient.bean.Suggest;
 import com.mad.trafficclient.R;
 
 import java.util.ArrayList;

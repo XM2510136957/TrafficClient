@@ -34,6 +34,7 @@ import com.mad.trafficclient.fragment.Fragment_13;
 import com.mad.trafficclient.fragment.Fragment_2;
 import com.mad.trafficclient.fragment.Fragment_3;
 import com.mad.trafficclient.fragment.Fragment_14;
+import com.mad.trafficclient.fragment.Fragment_4;
 import com.mad.trafficclient.fragment.Fragment_5;
 import com.mad.trafficclient.fragment.Fragment_6;
 import com.mad.trafficclient.fragment.Fragment_7;
@@ -101,7 +102,7 @@ public class MainActivity extends FragmentActivity {
                 "账单查询",
                 "个人中心",
                 getString(R.string.res_left_honglvdengguanli),
-                "编码4",
+                "我的账户",
                 "编码5",
                 "编码6",
                 "编码7",
@@ -173,7 +174,7 @@ public class MainActivity extends FragmentActivity {
                         break;
 
                     case 3:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new Fragment_14()).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new Fragment_4()).commit();
                         tV_title.setText(actionTexts[arg2]);
 
                         break;
