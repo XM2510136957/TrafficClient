@@ -1,4 +1,4 @@
-package com.mad.trafficclient.Bean;
+package com.mad.trafficclient.bean;
 
 public class Billing {
     private int carId;

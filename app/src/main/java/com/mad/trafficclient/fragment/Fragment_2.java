@@ -16,7 +16,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.mad.trafficclient.Bean.CZJL;
+import com.mad.trafficclient.bean.CZJL;
 import com.mad.trafficclient.R;
 
 import java.util.ArrayList;
@@ -126,7 +126,7 @@ public class Fragment_2 extends Fragment{
             });
 			ll_title.addView(view1);
 		}
-		viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+		viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 

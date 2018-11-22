@@ -1,4 +1,4 @@
-package com.mad.trafficclient.Adaper;
+package com.mad.trafficclient.adaper;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

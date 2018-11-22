@@ -3,11 +3,14 @@
  */
 package com.mad.trafficclient.fragment;
 
-import com.mad.trafficclient.Bean.Billing;
+import com.mad.trafficclient.bean.Billing;
 import com.mad.trafficclient.R;
+import com.mad.trafficclient.dao.UserDao;
 
+import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,9 +21,6 @@ import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.w3c.dom.Text;
-
-import java.lang.reflect.Array;
 import java.text.ParsePosition;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -28,7 +28,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
-import java.util.StringTokenizer;
 
 
 public class Fragment_1 extends Fragment {
@@ -40,16 +39,24 @@ public class Fragment_1 extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_layout01, container, false);
 
-		requestData();
 		initUI(view);
 		return view;
 	}
 
 	private void requestData() {
-		for(int i=0;i<10;i++){
-			Billing billing = new Billing(i+1,100+i,"liucong","2018.11.20 14:0"+i);
+		//清空数据
+		mData.clear();
+		//重新到数据库获取
+		UserDao userDao = new UserDao(getActivity());
+		userDao.open();
+		Cursor cursor = userDao.query("select * from chargeInfo where userName='刘聪'");
+		cursor.moveToFirst();
+		for(int i=0;i<cursor.getCount();i++){
+			Billing billing = new Billing(cursor.getInt(1),cursor.getInt(2),cursor.getString(3),cursor.getString(4));
+			cursor.moveToNext();
 			mData.add(billing);
 		}
+		userDao.close();
 	}
 
 	private void initUI(View view) {
@@ -58,9 +65,11 @@ public class Fragment_1 extends Fragment {
 		(view.findViewById(R.id.btn_query)).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
+				//更新获取数据
+				requestData();
 				//排序
 				sortData(mData);
-				//更新数据
+				//更新数据到UI
 				update();
 			}
 		});
@@ -86,14 +95,17 @@ public class Fragment_1 extends Fragment {
 			}
 			tl_layout.addView(tableRow);
 		}
-
-		Toast.makeText(getActivity(), "查询成功", Toast.LENGTH_SHORT).show();
+		if(mData.size()>0){
+			Toast.makeText(getActivity(), "查询成功", Toast.LENGTH_SHORT).show();
+		}else{
+			Toast.makeText(getActivity(), "暂无充值记录", Toast.LENGTH_SHORT).show();
+		}
 	}
 
 	//字符串时间 转 Date对象
 	private Date stringToDate(String dateString){
 		ParsePosition position = new ParsePosition(0);
-		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("YYYY.MM.DD HH:mm");
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy.MM.DD HH:mm");
 		Date dateValue = simpleDateFormat.parse(dateString,position);
 		return dateValue;
 	}
@@ -108,11 +120,13 @@ public class Fragment_1 extends Fragment {
 				if(s_sort.getSelectedItemPosition() == 0){
 					//降序
 					if(date1.after(date2)){
+						Log.e("降序","成功！");
 						return 1;
 					}
 				}else if(s_sort.getSelectedItemPosition() == 1){
 					//升序
 					if(date1.before(date2)){
+						Log.e("升序","成功！");
 						return 1;
 					}
 				}

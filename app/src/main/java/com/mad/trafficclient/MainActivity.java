@@ -13,12 +13,9 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.SlidingPaneLayout;
 import android.view.KeyEvent;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -30,10 +27,19 @@ import android.widget.TextView;
 import com.mad.trafficclient.fragment.Fra18_Bottom_Activity;
 import com.mad.trafficclient.fragment.FragmentHome;
 import com.mad.trafficclient.fragment.Fragment_1;
-import com.mad.trafficclient.fragment.Fragment_18;
+import com.mad.trafficclient.fragment.Fragment_10;
+import com.mad.trafficclient.fragment.Fragment_11;
+import com.mad.trafficclient.fragment.Fragment_12;
+import com.mad.trafficclient.fragment.Fragment_13;
 import com.mad.trafficclient.fragment.Fragment_2;
 import com.mad.trafficclient.fragment.Fragment_3;
+import com.mad.trafficclient.fragment.Fragment_14;
 import com.mad.trafficclient.fragment.Fragment_4;
+import com.mad.trafficclient.fragment.Fragment_5;
+import com.mad.trafficclient.fragment.Fragment_6;
+import com.mad.trafficclient.fragment.Fragment_7;
+import com.mad.trafficclient.fragment.Fragment_8;
+import com.mad.trafficclient.fragment.Fragment_9;
 
 
 /**
@@ -93,9 +99,19 @@ public class MainActivity extends FragmentActivity {
 
 
         final String[] actionTexts = new String[]{
-                getString(R.string.res_left_wodezhanghu),
-                getString(R.string.res_left_zhanghuguanli),
+                "账单查询",
+                "个人中心",
                 getString(R.string.res_left_honglvdengguanli),
+                "我的账户",
+                "编码5",
+                "编码6",
+                "编码7",
+                "编码8",
+                "编码9",
+                "编码10",
+                "编码11",
+                "编码12",
+                "编码13",
                 getString(R.string.res_left_chuanyi),
                 getString(R.string.res_left_news),
                 getString(R.string.res_left_exit)
@@ -105,6 +121,16 @@ public class MainActivity extends FragmentActivity {
                 R.drawable.btn_l_star,
                 R.drawable.btn_l_book,
                 R.drawable.btn_l_slideshow,
+                R.drawable.btn_l_target,
+                R.drawable.btn_l_target,
+                R.drawable.btn_l_target,
+                R.drawable.btn_l_target,
+                R.drawable.btn_l_target,
+                R.drawable.btn_l_target,
+                R.drawable.btn_l_target,
+                R.drawable.btn_l_target,
+                R.drawable.btn_l_target,
+                R.drawable.btn_l_target,
                 R.drawable.btn_l_target,
                 R.drawable.btn_l_download,
                 R.drawable.btn_l_target,
@@ -152,13 +178,73 @@ public class MainActivity extends FragmentActivity {
                         tV_title.setText(actionTexts[arg2]);
 
                         break;
+
                     case 4:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new Fra18_Bottom_Activity()).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new Fragment_5()).commit();
                         tV_title.setText(actionTexts[arg2]);
 
                         break;
 
                     case 5:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new Fragment_6()).commit();
+                        tV_title.setText(actionTexts[arg2]);
+
+                        break;
+
+                    case 6:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new Fragment_7()).commit();
+                        tV_title.setText(actionTexts[arg2]);
+
+                        break;
+
+                    case 7:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new Fragment_8()).commit();
+                        tV_title.setText(actionTexts[arg2]);
+
+                        break;
+
+                    case 8:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new Fragment_9()).commit();
+                        tV_title.setText(actionTexts[arg2]);
+
+                        break;
+
+                    case 9:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new Fragment_10()).commit();
+                        tV_title.setText(actionTexts[arg2]);
+
+                        break;
+
+                    case 10:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new Fragment_11()).commit();
+                        tV_title.setText(actionTexts[arg2]);
+
+                        break;
+
+                    case 11:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new Fragment_12()).commit();
+                        tV_title.setText(actionTexts[arg2]);
+
+                        break;
+
+                    case 12:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new Fragment_13()).commit();
+                        tV_title.setText(actionTexts[arg2]);
+
+                        break;
+
+                    case 13:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new Fragment_14()).commit();
+                        tV_title.setText(actionTexts[arg2]);
+
+                        break;
+                    case 14:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new Fra18_Bottom_Activity()).commit();
+                        tV_title.setText(actionTexts[arg2]);
+
+                        break;
+
+                    case 15:
                         exitAppDialog();
 
                         break;
