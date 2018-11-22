@@ -1,11 +1,13 @@
 package com.mad.trafficclient.fragment;
 
+import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.annotation.RequiresApi;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,6 +23,7 @@ public class Fragment_7 extends Fragment {
     private TextView fire,crowd,smooth;
     private TextView red,yellow,green;
     private View view;
+    private Context context = getActivity();
     private int pmdata,warmdata,wetdata;
     private Timer timer = new Timer();
     private Handler handler = new Handler(){
@@ -67,34 +70,34 @@ public class Fragment_7 extends Fragment {
         wet.setText(wetdata+"%");
         if(pmdata<20&&warmdata>20||wetdata<30){
             fire.setText("爆表");
-            red.setBackground(getActivity().getDrawable(R.drawable.border_textred));
+            red.setBackground(context.getDrawable(R.drawable.border_textred));
             smooth.setText("堵塞");
-            green.setBackground(getActivity().getDrawable(R.drawable.border_textcrowd));
+            green.setBackground(context.getDrawable(R.drawable.border_textcrowd));
             crowd.setText("拥挤");
-            yellow.setBackground(getActivity().getDrawable(R.drawable.border_textyellow));
+            yellow.setBackground(context.getDrawable(R.drawable.border_textyellow));
         }
         else if(pmdata<60&&warmdata>10||wetdata<60){
             fire.setText("较拥挤");
-            red.setBackground(getActivity().getDrawable(R.drawable.border_textlowdcrowd));
+            red.setBackground(context.getDrawable(R.drawable.border_textlowdcrowd));
             smooth.setText("爆表");
-            green.setBackground(getActivity().getDrawable(R.drawable.border_textred));
+            green.setBackground(context.getDrawable(R.drawable.border_textred));
             crowd.setText("通畅");
-            yellow.setBackground(getActivity().getDrawable(R.drawable.border_textgreen));
+            yellow.setBackground(context.getDrawable(R.drawable.border_textgreen));
         }
        else if(pmdata<100&&warmdata>0||wetdata<98){
             fire.setText("拥挤");
-            red.setBackground(getActivity().getDrawable(R.drawable.border_textyellow));
+            red.setBackground(context.getDrawable(R.drawable.border_textyellow));
             crowd.setText("堵塞");
-            yellow.setBackground(getActivity().getDrawable(R.drawable.border_textcrowd));
+            yellow.setBackground(context.getDrawable(R.drawable.border_textcrowd));
             smooth.setText("通畅");
-            green.setBackground(getActivity().getDrawable(R.drawable.border_textgreen));
+            green.setBackground(context.getDrawable(R.drawable.border_textgreen));
         }else {
             fire.setText("通畅");
-            red.setBackground(getActivity().getDrawable(R.drawable.border_textgreen));
+            red.setBackground(context.getDrawable(R.drawable.border_textgreen));
             smooth.setText("拥挤");
-            green.setBackground(getActivity().getDrawable(R.drawable.border_textyellow));
+            green.setBackground(context.getDrawable(R.drawable.border_textyellow));
             crowd.setText("爆表");
-            yellow.setBackground(getActivity().getDrawable(R.drawable.border_textred));
+            yellow.setBackground(context.getDrawable(R.drawable.border_textred));
         }
 
     }
@@ -109,5 +112,11 @@ public class Fragment_7 extends Fragment {
         red = view.findViewById(R.id.color1);
         yellow = view.findViewById(R.id.color2);
         green = view.findViewById(R.id.color3);
+    }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        this.context = context;
     }
 }
