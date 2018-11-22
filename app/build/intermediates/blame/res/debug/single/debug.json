@@ -4,8 +4,16 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\activity_reg.xml"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment02_item02.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\fragment02_item02.xml"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_l_target.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\btn_l_target.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\55907a4ef69cbc5acbd7345996f01f0b\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
@@ -28,6 +36,18 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\btn_l_suitcase.png"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_weizhang.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\item_weizhang.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_3_suggest.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\fragment_3_suggest.xml"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_voervo.jpg.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\voervo.jpg"
     },
@@ -42,6 +62,10 @@
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_3.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\icon_3.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_l_book.png.flat",
@@ -60,6 +84,14 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\change.png"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_layout07.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\fragment_layout07.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sibalu.jpg.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\sibalu.jpg"
     },
@@ -72,16 +104,20 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\bus_2.png"
     },
     {
-        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_speed.png.flat",
-        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\icon_speed.png"
-    },
-    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_l_download.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\btn_l_download.png"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_speed.png.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\icon_speed.png"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_wm2.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\wm2.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_home.png.flat",
@@ -108,16 +144,44 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\login.png"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_flash.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\flash.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\55907a4ef69cbc5acbd7345996f01f0b\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_setting.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\setting.png"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment02_item03.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\fragment02_item03.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_layout06.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\fragment_layout06.xml"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_l_tumblr.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\btn_l_tumblr.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_loading_dialog.xml.flat",
@@ -128,8 +192,16 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\bus_1.png"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\55907a4ef69cbc5acbd7345996f01f0b\\res\\layout\\notification_media_action.xml"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_touxiang_2.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\touxiang_2.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\55907a4ef69cbc5acbd7345996f01f0b\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_xiandai.jpg.flat",
@@ -144,8 +216,24 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\icon101.png"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_layout09.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\fragment_layout09.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_menu_layout.xml.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\menu_layout.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\55907a4ef69cbc5acbd7345996f01f0b\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_1.png.flat",
@@ -160,8 +248,24 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\fragment_layout04.xml"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_carone.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\carone.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_image.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\layout_image.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_l_twitter.png.flat",
@@ -170,6 +274,10 @@
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fra18__bottom.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\activity_fra18__bottom.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_l_arrows.png.flat",
@@ -196,8 +304,28 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\raw\\car3.3gp"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_charge.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\item_charge.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_border_write.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\border_write.xml"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_x_z.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\x_z.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_layout14.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\fragment_layout14.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_layout01.xml.flat",
@@ -220,6 +348,14 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\x_y.png"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bentian.jpg.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\bentian.jpg"
     },
@@ -228,48 +364,80 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\listbottombg.png"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_layout11.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\fragment_layout11.xml"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\raw_car4.3gp.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\raw\\car4.3gp"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_btn.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\item_btn.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_mazhida.jpg.flat",
-        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\mazhida.jpg"
-    },
-    {
-        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_l_slideshow.png.flat",
-        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\btn_l_slideshow.png"
-    },
-    {
-        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_leftitem_font_selector.xml.flat",
-        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\leftitem_font_selector.xml"
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_table_border.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable\\table_border.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_baoma.jpg.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\baoma.jpg"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_leftitem_font_selector.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\leftitem_font_selector.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_l_slideshow.png.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\btn_l_slideshow.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_mazhida.jpg.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\mazhida.jpg"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_weizhang03.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\weizhang03.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\55907a4ef69cbc5acbd7345996f01f0b\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_jiaojing2_2.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\jiaojing2_2.png"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_jiaojing1_2.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\jiaojing1_2.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_plus.png.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\plus.png"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_parking.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\icon_parking.png"
     },
     {
-        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_plus.png.flat",
-        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\plus.png"
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\55907a4ef69cbc5acbd7345996f01f0b\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\55907a4ef69cbc5acbd7345996f01f0b\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_background.png.flat",
@@ -284,8 +452,20 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\fute.jpg"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_l_grid.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\btn_l_grid.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\55907a4ef69cbc5acbd7345996f01f0b\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_busstop.png.flat",
@@ -316,16 +496,28 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\btn_l_share.png"
     },
     {
-        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_l_tag.png.flat",
-        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\btn_l_tag.png"
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_layout12.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\fragment_layout12.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fragment_18.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\activity_fragment_18.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_l_tag.png.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\btn_l_tag.png"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_audi.jpg.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\audi.jpg"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_option_checked.png.flat",
@@ -352,12 +544,32 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\icon105.png"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_layout05.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\fragment_layout05.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sanling.jpg.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\sanling.jpg"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_listview_1.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\item_listview_1.xml"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_l_skype.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\btn_l_skype.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_guide.xml.flat",
@@ -370,6 +582,14 @@
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\raw_traffic.3gp.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\raw\\traffic.3gp"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_layout13.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\fragment_layout13.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_border_write2.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\border_write2.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tesila.jpg.flat",
@@ -396,24 +616,56 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\fragment_layout02.xml"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fra10__pie.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\activity_fra10__pie.xml"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_l_star.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\btn_l_star.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_light.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\icon_light.png"
     },
     {
-        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_zhonghua.jpg.flat",
-        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\zhonghua.jpg"
-    },
-    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_xuefulan.jpg.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\xuefulan.jpg"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_zhonghua.jpg.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\zhonghua.jpg"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_wm4.png.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\wm4.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_weizhang.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable\\btn_weizhang.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_layout10.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\fragment_layout10.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment02_item01.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\fragment02_item01.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_idea.png.flat",
@@ -432,6 +684,10 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\biyadi.jpg"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_qirui.jpg.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\qirui.jpg"
     },
@@ -446,6 +702,10 @@
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_login_setting.xml.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\login_setting.xml"
+    },
+    {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_layout08.xml.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\fragment_layout08.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\raw_bwm.3gp.flat",
@@ -464,12 +724,16 @@
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\refresh.png"
     },
     {
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_jiaojing2_1.png.flat",
+        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\jiaojing2_1.png"
+    },
+    {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_gridview_item.xml.flat",
         "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\layout\\gridview_item.xml"
     },
     {
-        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_jiaojing2_1.png.flat",
-        "source": "E:\\Works\\TrafficClient\\app\\src\\main\\res\\drawable-hdpi\\jiaojing2_1.png"
+        "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\hdxf\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\729f53ab0656de2201659d5470f43c1a\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "E:\\Works\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon102.png.flat",
