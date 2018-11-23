@@ -41,17 +41,21 @@ import com.mad.trafficclient.fragment.Fragment_6_ref1;
 import com.mad.trafficclient.fragment.Fragment_7;
 import com.mad.trafficclient.fragment.Fragment_8;
 import com.mad.trafficclient.fragment.Fragment_9;
+import com.mad.trafficclient.fragment.Fragment_9data1;
+import com.mad.trafficclient.fragment.Fragment_9data2;
+import com.mad.trafficclient.fragment.Fragment_9data3;
 
 
 /**
  * @author zhaowei
  */
-public class MainActivity extends FragmentActivity {
+public class MainActivity extends FragmentActivity implements Fragment_9.GotoFragmnet {
     private SlidingPaneLayout slidepanel;
 
     private Fragment fragment;
 
     private ListView listView;
+    private String str [] = {"ETC充值","ETC余额","充值记录"};
     SimpleAdapter simpleAdapter;
 
     ArrayList<HashMap<String, Object>> actionItems;
@@ -315,5 +319,32 @@ public class MainActivity extends FragmentActivity {
 
     }
 
+    private Fragment_9data1 fragment_9data1;
+    @Override
+    public void init() {
+        if(fragment_9data1==null){
+            fragment_9data1 = new Fragment_9data1();
+        }
+        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent,fragment_9data1).commit();
+        tV_title.setText(str[0]);
+    }
+    private Fragment_9data2 fragment_9data2;
+    @Override
+    public void init2() {
+        if(fragment_9data2==null){
+            fragment_9data2 = new Fragment_9data2();
+        }
+        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent,fragment_9data2).commit();
+        tV_title.setText(str[1]);
+    }
 
+    private Fragment_9data3 fragment_9data3;
+    @Override
+    public void init3() {
+        if(fragment_9data3==null){
+            fragment_9data3 = new Fragment_9data3();
+        }
+        getSupportFragmentManager().beginTransaction().replace(R.id.maincontent,fragment_9data3).commit();
+        tV_title.setText(str[2]);
+    }
 }
