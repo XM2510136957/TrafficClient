@@ -1,4 +1,4 @@
-package Entity;
+package com.mad.trafficclient.Entity;
 
 public class MyMsgEntity {
     private int no;

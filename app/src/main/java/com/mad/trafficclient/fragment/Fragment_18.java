@@ -5,7 +5,6 @@ import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,7 +20,7 @@ import com.mad.trafficclient.R;
 
 import java.util.ArrayList;
 
-import Entity.MyMsgEntity;
+import com.mad.trafficclient.Entity.MyMsgEntity;
 
 public class Fragment_18 extends Fragment {
     private TableLayout tb;
