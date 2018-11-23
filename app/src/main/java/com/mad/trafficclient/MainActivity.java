@@ -105,7 +105,7 @@ public class MainActivity extends FragmentActivity {
                 getString(R.string.res_left_honglvdengguanli),
                 "我的账户",
                 "违章记录",
-                "编码6",
+                "我的新闻",
                 "编码7",
                 "编码8",
                 "编码9",
