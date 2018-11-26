@@ -3,11 +3,13 @@
  */
 package com.mad.trafficclient.fragment;
 
+import android.database.Cursor;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,9 +17,11 @@ import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.mad.trafficclient.bean.CZJL;
 import com.mad.trafficclient.R;
+import com.mad.trafficclient.dao.UserDao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +31,7 @@ public class Fragment_2 extends Fragment{
 	private LinearLayout ll_title;
 	private ViewPager viewPager;
 	private View[] layouts;
+	private ListView listView;
 	private PagerAdapter pagerAdapter = new PagerAdapter() {
         @Override
         public int getCount() {
@@ -91,9 +96,15 @@ public class Fragment_2 extends Fragment{
 	}
 
     private void requestData() {
-	    for(int i=0;i<10;i++){
-	        CZJL czjl = new CZJL("liucong","鲁B10001",100+i,200+i,new String[]{"2017.05.0"+i,"星期一","2017.05.0"+i+" 14:0"+i});
+	    czjls.clear();
+        UserDao userDao = new UserDao(getActivity());
+        userDao.open();
+        Cursor cursor = userDao.query("select * from czjl");
+        cursor.moveToFirst();
+        for(int i=0;i<cursor.getCount();i++){
+	        CZJL czjl = new CZJL(cursor.getString(1),cursor.getString(2),Integer.parseInt(cursor.getString(3)),Integer.parseInt(cursor.getString(4)),cursor.getString(5).split(";"));
             czjls.add(czjl);
+            cursor.moveToNext();
 	    }
     }
 
@@ -142,8 +153,18 @@ public class Fragment_2 extends Fragment{
 
             }
         });
-        ((ListView)layouts[1].findViewById(R.id.lv_charge)).setAdapter(baseAdapter);
-
+        listView = layouts[1].findViewById(R.id.lv_charge);
+        listView.setAdapter(baseAdapter);
+        Bundle bundle = getArguments();
+        if(bundle != null) {
+            int position = bundle.getInt("position");
+            viewPager.setCurrentItem(position);
+            requestData();
+            listView.invalidateViews();
+        }
+        if(czjls.size() == 0){
+            Toast.makeText(getActivity(), "暂无充值记录", Toast.LENGTH_SHORT).show();
+        }
 	}
 	private int viewToPosition(View view){
 	    for(int i=0;i<views.size();i++){

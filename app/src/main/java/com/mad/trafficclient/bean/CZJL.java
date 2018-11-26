@@ -34,4 +34,17 @@ public class CZJL {
     public String[] getTime() {
         return time;
     }
+
+    @Override
+    public String toString() {
+        String str = "";
+        for(int i=0;i<time.length;i++){
+            if(i != time.length-1){
+                str += time[i] + ";";
+            }else{
+                str += time[i];
+            }
+        }
+        return str;
+    }
 }

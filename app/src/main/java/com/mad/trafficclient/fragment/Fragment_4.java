@@ -104,7 +104,7 @@ public class Fragment_4 extends Fragment {
 
     //获取当前时间
     private String getDate() {
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyy.MM.dd hh:mm");
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy.MM.dd hh:mm");
         return simpleDateFormat.format(new Date());
     }
 

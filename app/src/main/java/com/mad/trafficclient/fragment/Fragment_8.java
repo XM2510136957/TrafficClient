@@ -14,6 +14,8 @@ import com.mad.trafficclient.R;
 
 import org.w3c.dom.Text;
 
+import java.util.Calendar;
+
 public class Fragment_8 extends Fragment {
     private TextView[] txts;
     private Switch[] switches;
@@ -40,6 +42,8 @@ public class Fragment_8 extends Fragment {
                 view.findViewById(R.id.switch2),
                 view.findViewById(R.id.switch3)
         };
+        Calendar calendar = Calendar.getInstance();
+        tv_date.setText(calendar.get(Calendar.YEAR)+"年"+(calendar.get(Calendar.MONTH)+1)+"月"+calendar.get(Calendar.DATE)+"日");
         tv_date.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

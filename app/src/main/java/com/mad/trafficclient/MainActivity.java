@@ -14,14 +14,18 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.SlidingPaneLayout;
+import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.ViewParent;
 import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.mad.trafficclient.fragment.Fra18_Bottom_Activity;
@@ -111,10 +115,10 @@ public class MainActivity extends FragmentActivity implements Fragment_9.GotoFra
                 "违章记录",
                 "我的新闻",
                 "编码7",
-                "编码8",
+                "出行管理",
                 "编码9",
-                "编码10",
-                "编码11",
+                "我的座驾",
+                "账户管理",
                 "编码12",
                 "编码13",
                 getString(R.string.res_left_chuanyi),
@@ -229,7 +233,6 @@ public class MainActivity extends FragmentActivity implements Fragment_9.GotoFra
                     case 11:
                         getSupportFragmentManager().beginTransaction().replace(R.id.maincontent, new Fragment_12()).commit();
                         tV_title.setText(actionTexts[arg2]);
-
                         break;
 
                     case 12:

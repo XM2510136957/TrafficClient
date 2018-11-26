@@ -5,12 +5,10 @@
     android:background="#f1f1f1"
     android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="04"
-        android:padding="10dp"
-        android:textColor="@android:color/black" />
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
 
 </LinearLayout>
